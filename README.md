@@ -87,3 +87,32 @@
   4. **Analyze and Report:**
      - Document findings and interpret the results within the context of their impact on business strategy and customer experience.
 
+## Task 4:
+### Statistical Modeling
+
+- **Tasks:**
+  1. **Data Preparation:** 
+     - Handling Missing Data: Impute or remove missing values based on their nature and the quantity missing.
+     - Feature Engineering: Create new features that might be relevant to TotalPremium and TotalClaims.
+     - Encoding Categorical Data: Convert categorical data into a numeric format using one-hot encoding or label encoding to make it suitable for modeling.
+     - Train-Test Split: Divide the data into a training set (for building the model) and a test set (for validating the model), typically using a 70:30 or 80:20 ratio.
+  
+  2. **Modeling Techniques:**
+     - Linear Regression
+     - Decision Trees
+     - Random Forests
+     - Gradient Boosting Machines (GBMs): XGBoost
+  
+  3. **Model Building:**
+     - Implement Linear Regression, Random Forests, and XGBoost models.
+  
+  4. **Model Evaluation:**
+     - Evaluate each model using appropriate metrics like accuracy, precision, recall, and F1-score.
+  
+  5. **Feature Importance Analysis:**
+     - Analyze which features are most influential in predicting retention.
+     - Use SHAP (SHapley Additive exPlanations) or LIME (Local Interpretable Model-agnostic Explanations) to interpret the model's predictions and understand how individual features influence the outcomes.
+  
+  6. **Report:** 
+     - Compare the performance of each model.
+
