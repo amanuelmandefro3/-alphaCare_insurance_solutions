@@ -6,9 +6,9 @@
 ### Git and GitHub
 
 - **Tasks:** 
-  - Create a git repository for the week with a good Readme
-  - Git version control 
-  - CI/CD with Github Actions
+  - Create a git repository for the week with a good Readme.
+  - Git version control.
+  - CI/CD with Github Actions.
 
 - **Key Performance Indicators (KPIs):**
   - Dev Environment Setup.
@@ -17,9 +17,9 @@
 ### Project Planning - EDA & Stats
 
 - **Tasks:**
-  - Data Understanding
-  - Exploratory Data Analysis (EDA)
-  - Statistical thinking
+  - Data Understanding.
+  - Exploratory Data Analysis (EDA).
+  - Statistical thinking.
 
 - **KPIs:**
   - Proactivity to self-learn - sharing references.
@@ -63,4 +63,27 @@
     ```bash
     dvc push
     ```
+
+## Task 3:
+### A/B Hypothesis Testing
+
+- **Hypotheses:**
+  - There are no risk differences across provinces.
+  - There are no risk differences between zip codes.
+  - There are no significant margin (profit) differences between zip codes.
+  - There are no significant risk differences between Women and Men.
+
+- **Tasks:**
+  1. **Select Metrics:** Choose the key performance indicator (KPI) that will measure the impact of the features being tested.
+  2. **Data Segmentation:**
+     - Group A (Control Group): Plans without the feature.
+     - Group B (Test Group): Plans with the feature.
+     - For features with more than two classes, ensure that the two groups selected do not have significant statistical differences on anything other than the feature being tested (client attributes, auto property, and insurance plan type must be statistically equivalent).
+  3. **Statistical Testing:**
+     - Conduct appropriate tests (e.g., chi-squared for categorical data, t-tests or z-tests for numerical data).
+     - Analyze the p-value from the statistical test:
+       - If `p_value < 0.05`, reject the null hypothesis, indicating a statistically significant effect.
+       - If `p_value >= 0.05`, fail to reject the null hypothesis, indicating no significant impact.
+  4. **Analyze and Report:**
+     - Document findings and interpret the results within the context of their impact on business strategy and customer experience.
 
